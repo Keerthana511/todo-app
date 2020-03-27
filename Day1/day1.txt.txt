@@ -1,0 +1,24 @@
+Day1
+
+1.Learning Git
+
+Learned what is git,
+core concepts like what repository contains,
+three states of git,
+Basic Git workflow life cycle,create/edit files,staging area
+Local and Remote repository,
+Master branch,
+Git configuration,
+Copy the repository from Github to local computer(git clone)
+Commit,
+Publishing changes back to github(push)
+
+
+2.Basics of golang
+
+why go?
+what go is good for?
+Principles.
+
+
+
