@@ -1,0 +1,44 @@
+Day2:Good Understanding of Golang
+
+Covered basic concepts ,
+      1.development env,
+	1.terminal
+	2.bash on windows
+	3.Installing go
+	4.go workspace
+		1.bin
+		2.pkg
+		3.src
+	5.environment variables
+		1.GOPATH
+		2.GOROOT			
+	6.gone through IDE's used
+	7.go commands
+		1.go version
+		2.go env
+		3.go help
+		4.go fmt
+		5.go build
+		6.go run main.go
+		7.go install 
+	8.Git
+		1.cloning
+		2.ssh
+	9.package management/dependencies,
+	  adding and upgrading	
+	2.
+	variables
+	values
+	types
+	control flow
+	packages
+	throwing away returns
+	variadic parameters
+	keywords,operators,functionalities
+	short declaration operators,var keyword.
+	types,fmt,zero value
+	creating your own type
+	conversion
+	
+	3.Handson #Exercises(code attached)
+	  6th ques is quiz
