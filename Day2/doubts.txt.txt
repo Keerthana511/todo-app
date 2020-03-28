@@ -1,3 +1,5 @@
-.bash_profile and .bashrc
-ssh and key in github
-using variadic parameters
+.bash_profile and .bashrc - when you open your terminal/cmd, we need to run some command. like setting path etc. To make sure its already set/run we add command to these files. 
+
+ssh and key in github -  by this not required now. by adding it you authenticate your laptop/system to github
+
+using variadic parameters - please explain your doubts 
