@@ -1,3 +1,8 @@
+/*
+At the package level scope,assign values.
+use fmt.SPrint to all of the values to one single string.
+*/
+
 package main
 
 import (

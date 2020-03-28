@@ -41,4 +41,4 @@ Covered basic concepts ,
 	conversion
 	
 	3.Handson #Exercises(code attached)
-	  6th ques is quiz
+	  

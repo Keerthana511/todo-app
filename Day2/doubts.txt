@@ -3,3 +3,6 @@
 ssh and key in github -  by this not required now. by adding it you authenticate your laptop/system to github
 
 using variadic parameters - please explain your doubts 
+
+
+why variadic parameters are used?

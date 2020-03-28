@@ -1,3 +1,6 @@
+/*Using the short  declaration operator,ASSIGN these values to variales
+with the IDENTIFIERS "x","y","z"
+*/
 package main
 
 import (

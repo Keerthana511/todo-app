@@ -1,3 +1,8 @@
+/*using previous code,make the variables store
+the values of following type int,string,bool
+using func main,print the values of identifier.
+*/
+
 package main
 
 import (
