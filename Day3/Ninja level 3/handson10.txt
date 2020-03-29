@@ -1,0 +1,14 @@
+write down the values that the following prints
+fmt.Println(true&&true)
+fmt.Println(true&&false)
+fmt.Println(true||true)
+fmt.Println(true||false)
+fmt.Println(!true)
+
+
+sol:
+true
+false
+true
+true
+false

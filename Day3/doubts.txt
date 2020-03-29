@@ -1,0 +1,10 @@
+1.upgrading dependencies,why this is done ,how?(last day doubt left)
+
+
+2.func main() {
+	a := 'hey
+	    "hi" hooi'
+	fmt.Println(a)
+}
+this is giving error.cant we write string like this?
+3.what is flagthrough ?why it is used?

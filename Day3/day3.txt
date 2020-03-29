@@ -1,0 +1,24 @@
+Day3:
+1.Programming Fundamentals
+   Learned bool,numeric types.
+   runtime packages.
+   string types,constants,its types
+   Iota,Bit shifting
+
+Ninja level 2 (codes attached)
+   
+2.Control Flow
+	loops,
+	nesting loops,
+	for statement(with single condition ,with clause)
+	loop,break,continue,
+	loop printing ascii
+	conditional statements
+	initializing statements
+	if,else if,else
+	loop,condition,modules
+	conditional switch statement
+	conditional logic operators.
+
+Ninja Level 3(codes attached)
+
