@@ -1,5 +1,8 @@
 1.upgrading dependencies,why this is done ,how?(last day doubt left)
 
+// suppose you are using libs, to use lib you need to get it there are many way to do it, golang is using module as official support. 
+
+
 
 2.func main() {
 	a := 'hey
@@ -7,4 +10,14 @@
 	fmt.Println(a)
 }
 this is giving error.cant we write string like this?
+
+to save multiline string you have to use "`" your code should look like 
+
+a := `hey
+	    "hi" hooi`
+	    
+you used "'" you have to use "`" 
+
 3.what is flagthrough ?why it is used?
+
+// please explain your question
