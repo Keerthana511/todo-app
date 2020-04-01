@@ -1,1 +1,5 @@
 why os.Stdout  used?
+
+This might help you 
+
+https://medium.com/@hau12a1/golang-capturing-log-println-and-fmt-println-output-770209c791b4
