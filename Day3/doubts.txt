@@ -21,3 +21,5 @@ you used "'" you have to use "`"
 3.what is flagthrough ?why it is used?
 
 // please explain your question
+
+I've seen flagthrough used in switch.But didnt understand the purpose of it.
