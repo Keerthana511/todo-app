@@ -1,0 +1,21 @@
+Day7:
+Channels
+learned channels,
+channels block
+directional channels(send and recieve)
+using channels
+range,close
+comma ok idiom
+fan in
+fan out
+context
+
+Error Handling
+type error
+checking errors
+printing and logging
+func exit
+fataln
+panic
+defer
+errors with info
