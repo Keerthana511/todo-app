@@ -1,0 +1,13 @@
+Day8:
+Writing documentation
+godoc
+examples
+godoc.org
+testing
+benchmarking
+table tests
+example tests
+golint
+coverage
+
+Ninja level 12 & 13 attached
