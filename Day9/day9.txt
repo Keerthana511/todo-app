@@ -1,0 +1,7 @@
+Day9:Go through additional training materials
+
+go documentations
+tools
+flags
+day 8 issues resolved
+
