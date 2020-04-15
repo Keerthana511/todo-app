@@ -1,0 +1,15 @@
+Day12 part2:
+Understanding routing/Multiplexing
+ServeMux
+examples
+DefaultServeMux
+Using HandlerFunc
+Serving Files
+eg for Notserving,
+serving a file with io.Copy
+serving a file with http.ServerContent&http.ServeFile
+using http.FileServer
+Serving with Http.FileServer &http.StripPrefix
+Creating a static fileserver with http.FileServer
+Log.Fatal&Http.Error
+
