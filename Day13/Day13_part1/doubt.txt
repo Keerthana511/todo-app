@@ -1,0 +1,2 @@
+saving with .gohtml is giving undefined.It is working only with html extension.
+

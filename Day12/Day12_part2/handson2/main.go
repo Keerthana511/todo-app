@@ -1,8 +1,11 @@
+//serve the files in the folder,using http.FileServer
 package main
-import(
-    "net/http"
-    "log"
+
+import (
+	"log"
+	"net/http"
 )
-func main(){
-    log.Fatal(http.ListenAndServe(":8080", http.FileServer(http.Dir("."))))
+
+func main() {
+	log.Fatal(http.ListenAndServe(":8080", http.FileServer(http.Dir("."))))
 }

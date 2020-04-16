@@ -1,3 +1,4 @@
+//listen and serve on port 8080 of localhost
 package main
 
 import (
