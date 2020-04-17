@@ -1,0 +1,16 @@
+Day11
+Web development
+
+language review
+templating with concatenation
+understanding package text/template parsing and executing templates
+parsing data into templates
+assigning values to variables
+parsing composite datastructure into templates
+functions in templates
+formating time
+pipelining
+predefined global functions
+nesting templates
+parsing data into templates& composition
+using methods

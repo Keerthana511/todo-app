@@ -1,0 +1,166 @@
+Day 10:
+Recap
+
+Revised,
+what is git,
+core concepts like what repository contains,
+three states of git,
+Basic Git workflow life cycle,create/edit files,staging area
+Local and Remote repository,
+Master branch,
+Git configuration,
+Copy the repository from Github to local computer(git clone)
+Commit,
+Publishing changes back to github(push)
+why go?
+what go is good for?
+Principles.
+development env,
+	1.terminal
+	2.bash on windows
+	3.Installing go
+	4.go workspace
+		1.bin
+		2.pkg
+		3.src
+	environment variables
+		1.GOPATH
+		2.GOROOT			
+	gone through IDE's used
+	go commands
+		1.go version
+		2.go env
+		3.go help
+		4.go fmt
+		5.go build
+		6.go run main.go
+		7.go install 
+	git
+		1.cloning
+		2.ssh
+	package management/dependencies,
+	  adding and upgrading	
+	variables
+	values
+	types
+	control flow
+	packages
+	throwing away returns
+	variadic parameters
+	keywords,operators,functionalities
+	short declaration operators,var keyword.
+	types,fmt,zero value
+	creating your own type
+	conversion
+Programming Fundamentals
+    bool,numeric types.
+   runtime packages.
+   string types,constants,its types
+   Iota,Bit shifting
+loops,
+	nesting loops,
+	for statement(with single condition ,with clause)
+	loop,break,continue,
+	loop printing ascii
+	conditional statements
+	initializing statements
+	if,else if,else
+	loop,condition,modules
+	conditional switch statement
+	conditional logic operators.
+array,
+slices
+slices for range
+slicing a slice
+appending to a slice
+deleting from a slice
+make
+multidimensional slice
+map
+add element,range.
+Structs
+examples
+Embedded structs
+Anonymous structs.
+
+Functions
+
+1.syntax,examples
+2.multiple return types
+3.variadic parameters
+4.unfurling a slice
+5.defer keyword
+6.Methods,Interface,polymorphism
+7.anonymous fn
+8.func expression
+9.returning a func from a func
+10.callback
+11.closure
+12.Recursion.
+
+Pointers
+
+1.examples
+2.when to use pointers
+3.method sets.
+
+JSON Documentation
+JSON Marshal
+JSON Unmarshal
+Writer Interface
+type writer
+type reader
+sort
+sort custom
+bcrypt
+
+Method Sets
+Documentation
+Race condition
+Mutex
+Atomic
+
+Channels
+learned channels,
+channels block
+directional channels(send and recieve)
+using channels
+range,close
+comma ok idiom
+fan in
+fan out
+context
+
+Error Handling
+type error
+checking errors
+printing and logging
+func exit
+fataln
+panic
+defer
+errors with info
+
+Writing documentation
+godoc
+examples
+godoc.org
+testing
+benchmarking
+table tests
+example tests
+golint
+coverage
+
+go documentations
+tools
+flags
+
+
+
+
+
+
+	
+	
+

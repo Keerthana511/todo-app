@@ -1,0 +1,17 @@
+Commands used
+
+
+git version
+git init
+git config --global username "username"
+git config --global user.mail "useremail.com"
+git clone url
+git status
+echo "msg or content">>start //creating new file start
+cat start.txt
+git add start.txt
+git commit -m "adding start text file"
+git push origin master
+git init
+ls -al
+rm -rf projectname//to delete git repo

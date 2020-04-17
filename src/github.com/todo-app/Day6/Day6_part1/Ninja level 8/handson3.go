@@ -1,0 +1,35 @@
+/*encode to json ,the []user sending results to stdout
+ */
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+	"os"
+)
+
+type user struct {
+	First string
+	Age   int
+}
+
+func main() {
+	u1 := user{
+		First: "James",
+		Age:   32,
+	}
+	u2 := user{
+		First: "MoneyPenny",
+		Age:   27,
+	}
+	u3 := user{
+		First: "M",
+		Age:   54,
+	}
+	users := []user{u1, u2, u3}
+	fmt.Println(users)
+	err := json.NewEncoder(os.Stdout).Encode(users)
+	if err != nil {
+		fmt.Println("here's the error:", err)
+	}
+}

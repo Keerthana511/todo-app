@@ -1,0 +1,17 @@
+Day12:
+Understandng server
+Http request
+Http response
+TCP -Write to connection.
+Read from connection
+Read from and Write to a connection
+Tcp server- Code client
+ROT-13
+In memory address database
+Tcp server-Http request /response handler
+net/http package-An Overview
+Understanding and using ListenAndServe
+Retrieving form values-exploring *http.Request
+Exploring http.ResponseWriter-Writing header to the response
+Review
+ 

@@ -1,0 +1,12 @@
+clarification on master branch
+
+Suppose there are more than few people are working on same project and this project is used in production and testing server. 
+
+To make it smooth and avoid confussion, we create multiple branches, first branch is master which is created when you create repo. 
+
+Different people follow different convention but idea is same to make sanity between different stages of development cycle. 
+
+Like dev branch where developers will push there changes 
+testing branch where people will pull from dev once they are ready for testing 
+production when they confidence that now theses changes can move to client, 
+

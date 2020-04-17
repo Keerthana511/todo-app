@@ -1,0 +1,10 @@
+Day13_part2
+creating sessions
+how to create unique id
+examples
+signup
+encrypt
+login
+logout
+setting permissions
+expiring sessions

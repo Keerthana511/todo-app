@@ -1,0 +1,20 @@
+Day 4:
+1.Grouping data
+
+Learned array,
+slices
+slices for range
+slicing a slice
+appending to a slice
+deleting from a slice
+make
+multidimensional slice
+map
+add element,range.
+
+Ninja level 4 (code is attached in the folder)
+
+2.Structs
+examples
+Embedded structs
+Anonymous structs.

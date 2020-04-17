@@ -1,0 +1,23 @@
+Day 5:
+Functions
+
+1.syntax,examples
+2.multiple return types
+3.variadic parameters
+4.unfurling a slice
+5.defer keyword
+6.Methods,Interface,polymorphism
+7.anonymous fn
+8.func expression
+9.returning a func from a func
+10.callback
+11.closure
+12.Recursion.
+
+Ninja level 6(code attached)
+
+Pointers
+
+1.examples
+2.when to use pointers
+3.method sets.

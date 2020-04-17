@@ -1,0 +1,4 @@
+Dear Om,
+
+The topics for day12 is a bit long,few topics are not clear like requests,response writer functions etc.
+But everything is explained in the video.I need some time to digest the concept,so that Iam rewatching the videos of this topic.

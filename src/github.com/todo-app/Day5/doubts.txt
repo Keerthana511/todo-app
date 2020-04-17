@@ -1,0 +1,6 @@
+clarification on method sets
+Please explain, what did you missed 
+
+
+simple example for polymorphism 
+https://golangbot.com/polymorphism/
