@@ -1,0 +1,9 @@
+Day14:
+Go and MongoDB
+
+Organizing code into packages
+Create User & Delete user
+MVC Design pattern 
+Install MongoDB
+connect to MongoDB
+CRUD with go and MongoDB
