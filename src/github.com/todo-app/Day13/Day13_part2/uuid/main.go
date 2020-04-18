@@ -1,4 +1,5 @@
 //when saving the code it is automatically saving uuid before "github.com/satori/go.uuid"
+//This is not a bug as if you use golang formator  enabled its try to import missing lib, add space 
 package main
 
 import (
