@@ -8,6 +8,13 @@ import (
 var todosCollection *mgo.Collection
 var session *mgo.Session
 
+const (
+	Hostname       string = "localhost:27017"
+	DBname         string = "todolist"
+	collectionName string = "todo"
+	port           string = ":8080"
+)
+
 func init() {
 	rnd = renderer.New()
 	sess, err := mgo.Dial(hostName)
