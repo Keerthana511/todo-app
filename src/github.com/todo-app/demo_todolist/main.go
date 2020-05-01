@@ -2,7 +2,9 @@ package main
 
 import (
 	"net/http"
-
+	 "./routes"
+	 "./db"
+	 "./models"
 	"github.com/gin-gonic/gin"
 )
 
