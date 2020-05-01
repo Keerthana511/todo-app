@@ -1,11 +1,10 @@
-package main
+package db
 
 import (
 	"github.com/thedevsaddam/renderer"
 	"gopkg.in/mgo.v2"
 )
 
-var todosCollection *mgo.Collection
 var session *mgo.Session
 
 const (

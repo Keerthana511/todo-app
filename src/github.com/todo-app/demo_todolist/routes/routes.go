@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-     "./Controllers"
+)
 
 func todoroutes() *gin.Engine {
 	r := gin.Default()
