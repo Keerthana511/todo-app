@@ -148,7 +148,7 @@ func updateTodo(c *gin.Context) {
 	err := db.C(collectionName).UpdateId(bson.M{"_id": bson.ObjectIdHex(id), "title": t.Title, "completed": t.Completed})
 
 	if err != nil {
-		rnd.JSON(w, http.StatusProcessing, renderer.M{
+		c.JSON(http.StatusProcessing, gin.H{
 			"message": "Failed to update todo",
 			"error":   err,
 		})
