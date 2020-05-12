@@ -2,7 +2,6 @@ package main
 
 import (
 	"net/http"
-
 	"github.com/gin-gonic/gin"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
@@ -103,7 +102,7 @@ func createTodo(c *gin.Context) {
 		})
 		return
 	} else {
-		c.JSON(http.StatusOk, t)
+		c.JSON(http.StatusProcessing, t)
 	}
 
 	tm := todoModel{
@@ -141,10 +140,11 @@ func updateTodo(c *gin.Context) {
 		})
 		return
 	} else {
-		c.JSON(http.StatusOk, t)
+		c.JSON(http.StatusProcessing, t)
 	}
 
-	err := db.C(collectionName).UpdateId(bson.M{"_id": bson.ObjectIdHex(id), "title": t.Title, "completed": t.Completed})
+	err := db.C(collectionName).UpdateId(bson.M{"_id": bson.ObjectIdHex(id)},
+	bson.M{"title": t.Title, "completed": t.Completed},)
 
 	if err != nil {
 		c.JSON(http.StatusProcessing, gin.H{
