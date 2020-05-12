@@ -4,7 +4,6 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/thedevsaddam/renderer"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )
