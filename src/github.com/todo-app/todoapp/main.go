@@ -2,6 +2,7 @@ package main
 
 import (
 	"net/http"
+
 	"github.com/gin-gonic/gin"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
@@ -25,10 +26,9 @@ type (
 	}
 
 	todo struct {
-		ID        string    `json:"id"`
-		Title     string    `json:"title"`
-		Completed bool      `json:"completed"`
-
+		ID        string `json:"id"`
+		Title     string `json:"title"`
+		Completed bool   `json:"completed"`
 	}
 )
 
@@ -57,13 +57,13 @@ func main() {
 	defer sess.Close()
 	router = gin.Default()
 	router.LoadHTMLGlob("templates/*")
-	v1 := router.Group("/v1")
+	v1 := router.Group("/v2")
 	{
-
-		v1.POST("/", createTodo)
-		v1.GET("/", fetchTodos)
-		v1.PUT("/{id}", updateTodo)
-		v1.DELETE("/{id}", deleteTodo)
+		v1.GET("/home", homeHandler)
+		v1.POST("/todo", createTodo)
+		v1.GET("/todo", fetchTodos)
+		v1.PUT("/todo/:id", updateTodo)
+		v1.DELETE("/todo/:id", deleteTodo)
 	}
 	router.Run()
 }
@@ -101,10 +101,7 @@ func createTodo(c *gin.Context) {
 			"message": "The title field is requried",
 		})
 		return
-	} else {
-		c.JSON(http.StatusProcessing, t)
 	}
-
 	tm := todoModel{
 		ID:        bson.NewObjectId(),
 		Title:     t.Title,
@@ -124,43 +121,38 @@ func createTodo(c *gin.Context) {
 	})
 }
 func updateTodo(c *gin.Context) {
-	id := bson.ObjectIdHex(c.Param("id"))
+	id := c.Param("id")
 	if !bson.IsObjectIdHex(id) {
 		c.JSON(http.StatusBadRequest, gin.H{
 			"message": "The id is invalid",
 		})
 		return
 	}
-
 	var t todo
-  
+	c.BindJSON(&t)
 	if t.Title == "" {
 		c.JSON(http.StatusBadRequest, gin.H{
 			"message": "The title field is requried",
 		})
 		return
-	} else {
-		c.JSON(http.StatusProcessing, t)
 	}
-
-	err := db.C(collectionName).UpdateId(bson.M{"_id": bson.ObjectIdHex(id)},
-	bson.M{"title": t.Title, "completed": t.Completed},)
-
-	if err != nil {
+	if err := db.C(collectionName).
+		Update(
+			bson.M{"_id": bson.ObjectIdHex(id)},
+			bson.M{"title": t.Title, "completed": t.Completed},
+		); err != nil {
 		c.JSON(http.StatusProcessing, gin.H{
 			"message": "Failed to update todo",
 			"error":   err,
 		})
 		return
-	} else {
-
-		c.JSON(http.StatusOK, gin.H{
-			"message": "Todo updated successfully",
-		})
 	}
+	c.JSON(http.StatusOK, gin.H{
+		"message": "Todo updated successfully",
+	})
 }
 func deleteTodo(c *gin.Context) {
-	id := bson.ObjectIdHex(c.Param("id"))
+	id := c.Param("id")
 	if !bson.IsObjectIdHex(id) {
 		c.JSON(http.StatusBadRequest, gin.H{
 			"message": "The id is invalid",
